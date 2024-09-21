@@ -45,6 +45,72 @@ hr{
 
 }
 
+
+.bloco1-sem-altura{
+    background-color: aqua;
+    width: 150px;
+    text-align: center;
+    font: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+
+}
+
+.bloco2-sem-altura{
+    background-color: red;
+    width: 150px;
+    text-align: center;
+    font: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+
+}
+
+.bloco3-sem-altura{
+    background-color: blueviolet;
+    width: 150px;
+    text-align: center;
+    font: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+
+}
+
+
+.bloco1-fontes-diferentes{
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+
+}
+
+.bloco2-fontes-diferentes{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+
+}
+
+.bloco3-fontes-diferentes{
+    background-color: blueviolet;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 90px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+
+}
+
+
 .container{
     display: flex;
     flex-direction: row;
@@ -73,6 +139,124 @@ hr{
 .container-column-reverse{
     display: flex;
     flex-direction: column-reverse;
+    background-color: black;
+    height: 500px;
+    padding: 16px;
+}
+
+.justify-content-center{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 500px;
+    padding: 16px;
+}
+
+.justify-content-flex-start{
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    height: 500px;
+    padding: 16px;
+}
+
+.justify-content-flex-end{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    height: 500px;
+    padding: 16px;
+}
+
+.justify-content-space-between{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 500px;
+    padding: 16px;
+}
+
+.justify-content-space-around{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 500px;
+    padding: 16px;
+}
+
+.justify-content-space-evenly{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 500px;
+    padding: 16px;
+}
+
+.container-align-items-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 500px;
+    padding: 16px;
+}
+
+.container-align-items-flex-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: black;
+    height: 500px;
+    padding: 16px;
+}
+
+.container-align-items-flex-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    background-color: black;
+    height: 500px;
+    padding: 16px;
+}
+
+.container-align-items-stretch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    background-color: black;
+    height: 500px;
+    padding: 16px;
+}
+
+.container-align-items-baseline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    background-color: black;
+    height: 500px;
+    padding: 16px;
+}
+
+.container-flex-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: black;
+    height: 500px;
+    padding: 16px;
+}
+
+.container-flex-wrap-nowrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     background-color: black;
     height: 500px;
     padding: 16px;
